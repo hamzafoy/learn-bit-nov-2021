@@ -22,7 +22,7 @@ body {
     flex-direction: row;
     justify-content: space-between;
     align-items: center;
-    height: 12vh;
+    height: 13vh;
     width: 100%;
     background-color: rgba(215,234,228, 0.05);
     margin: 0 0;
@@ -41,7 +41,7 @@ body {
     flex-direction: column;
     align-self: flex-end;
     font-family: 'Roboto Slab', serif;
-    font-size: 0.75em;
+    font-size: 0.85em;
     padding-right: 5vw;
 }
 
