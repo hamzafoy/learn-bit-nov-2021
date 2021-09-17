@@ -11,7 +11,7 @@ icon.addEventListener('click', () => {
             nav.style.display = "flex";
         }, 1000)
     }
-})
+});
 
 closeButton.addEventListener('click', () => {
     if(nav.style.display = "flex") {
@@ -22,7 +22,4 @@ closeButton.addEventListener('click', () => {
             nav.style.display = "none";
         }, 1000);
     }
-})
-
-/* hamburger.style.display = "block";
-        navBar.style.display = "none"; */
+});
