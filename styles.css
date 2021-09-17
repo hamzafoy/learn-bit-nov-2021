@@ -30,7 +30,7 @@ body {
 
 
 .header__logo {
-    font-size: 1.15em;
+    font-size: 1.5em;
     padding-left: 5vw;
     font-family: 'Roboto Slab', serif;
 }
@@ -46,15 +46,11 @@ body {
 }
 
 
+
 .header__nav-icon {
+    display: block;
     padding-right: 5vw;
 }
-
-.header__nav-menu:first-of-type {
-    animation: animatedMenu 1.5s ease forwards;
-}
-
-
 
 
 
@@ -94,7 +90,7 @@ body {
 
 /* Keyframes */
 
-@keyframes animatedMenu {
+@keyframes animatedMenuForward {
     0% {
         transform: translateX(-100%) scale(0);
     }
@@ -107,49 +103,85 @@ body {
 }
 
 
+@keyframes revertMenuBack {
+    0% {
+        transform: translateX(0%) scale(1);
+    }
+    50% {
+        transform: translateX(-50%) scale (.5);
+    }
+    100% {
+        transform: translateX(-100%) scale(0);
+    }
+}
+
+
+
+/*-----------------------------
+---- Mobile-Friendly CSS ------
+-----------------------------*/
 
 @media (min-width: 990px) {
 
-    body {
-        background-size: cover;
-    }
+.nav-menu__close {
+    display: none;
+}
 
-    .header {
-        height: 20vh;
-    }
+body {
+    background-size: cover;
+}
 
-    .header__logo {
-        font-size: 2.5em;
-    }
 
-    .header__nav-menu {
-        display: flex;
-        flex-direction: row;
-    }
+.header {
+    height: 20vh;
+}
 
-    .header__nav-menu:first-of-type {
-        animation: none;
-    }
 
-    .header__nav-icon {
-        display: none;
-    }
+.header__logo {
+    font-size: 2.25em;
+}
 
-    .main-container {
-        margin: 21vh 0 0;
-    }
 
-    .main-container__heading {
-        font-size: 6em;
-    }
+.header__nav-menu {
+    display: flex;
+    flex-direction: row;
+    font-size: 2em;
+}
 
-    .main-container__description {
-        font-size: 2.25em;
-    }
 
-    .main-container__button {
-        padding: 2.75vh 4vw;
-        font-size: 2.15em;
-    }
+.header__nav-menu:first-of-type {
+    animation: none;
+}
+
+
+.header__nav-menu a {
+    margin: 0 .85vw;
+}
+
+
+.header__nav-icon {
+    display: none;
+}
+
+
+.main-container {
+    margin: 18vh 0 0;
+}
+
+
+.main-container__heading {
+    font-size: 6em;
+}
+
+
+.main-container__description {
+    font-size: 2.25em;
+}
+
+
+.main-container__button {
+    padding: 2.75vh 4vw;
+    font-size: 2.15em;
+}
 
 }
