@@ -92,26 +92,26 @@ body {
 
 @keyframes animatedMenuForward {
     0% {
-        transform: translateX(-100%) scale(0);
+        transform: translateY(-100%) scale(0);
     }
     50% {
-        transform: translateX(-50%) scale (.5);
+        transform: translateY(-50%) scale (.5);
     }
     100% {
-        transform: translateX(0%) scale(1);
+        transform: translateY(0%) scale(1);
     }
 }
 
 
 @keyframes revertMenuBack {
     0% {
-        transform: translateX(0%) scale(1);
+        transform: translateY(0%) scale(1);
     }
     50% {
-        transform: translateX(-50%) scale (.5);
+        transform: translateY(-50%) scale (.5);
     }
     100% {
-        transform: translateX(-100%) scale(0);
+        transform: translateY(-100%) scale(0);
     }
 }
 
