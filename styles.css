@@ -24,7 +24,7 @@ body {
     align-items: center;
     height: 12vh;
     width: 100%;
-    background-color: rgba(215,234,228, 0.45);
+    background-color: rgba(215,234,228, 0.15);
     margin: 0 0;
 }
 
@@ -32,6 +32,21 @@ body {
 .header__logo {
     font-size: 1.15em;
     padding-left: 5vw;
+    font-family: 'Roboto Slab', serif;
+}
+
+
+.header__nav-menu {
+    display: flex;
+    flex-direction: column;
+    font-family: 'Roboto Slab', serif;
+    font-size: 0.75em;
+    display: none;
+}
+
+
+.header__nav-icon {
+    padding-right: 5vw;
 }
 
 
@@ -43,11 +58,15 @@ body {
 }
 
 .main-container__heading {
-    font-size: 1.35em;
+    font-size: 2.25em;
     margin: 6vh 0 1.15vh;
+    font-family: 'Roboto Slab', serif;
+    color: #CE796B;
 }
 
 .main-container__description {
-    padding-right: 50%;
+    font-size: 1.25em;
+    padding-right: 40%;
     color: #D2D4C8;
+    font-family: 'Comfortaa', cursive;
 }
