@@ -1,0 +1,53 @@
+/*-----------------------------
+---- Mobile-Friendly CSS ------
+-----------------------------*/
+
+
+/* General Styles */
+
+body {
+    background-image: url('./public/img/bg-img.jpg');
+    background-position: top center;
+    background-repeat: no-repeat;
+    margin: 0 0;
+    padding: 0 0;
+}
+
+
+
+/* NavBar Styles */
+
+.header {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    height: 12vh;
+    width: 100%;
+    background-color: rgba(215,234,228, 0.45);
+    margin: 0 0;
+}
+
+
+.header__logo {
+    font-size: 1.15em;
+    padding-left: 5vw;
+}
+
+
+
+/* Landing Page Styles */
+
+.main-container {
+    padding-left: 5vw;
+}
+
+.main-container__heading {
+    font-size: 1.35em;
+    margin: 6vh 0 1.15vh;
+}
+
+.main-container__description {
+    padding-right: 50%;
+    color: #D2D4C8;
+}
