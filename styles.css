@@ -24,7 +24,7 @@ body {
     align-items: center;
     height: 12vh;
     width: 100%;
-    background-color: rgba(215,234,228, 0.15);
+    background-color: rgba(215,234,228, 0.05);
     margin: 0 0;
 }
 
@@ -114,8 +114,29 @@ body {
         background-size: cover;
     }
 
+    .header {
+        height: 20vh;
+    }
+
+    .header__logo {
+        font-size: 2.5em;
+    }
+
+    .header__nav-menu {
+        display: flex;
+        flex-direction: row;
+    }
+
+    .header__nav-menu:first-of-type {
+        animation: none;
+    }
+
+    .header__nav-icon {
+        display: none;
+    }
+
     .main-container {
-        margin: 25vh 0 0;
+        margin: 21vh 0 0;
     }
 
     .main-container__heading {
