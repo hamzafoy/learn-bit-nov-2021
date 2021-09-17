@@ -41,6 +41,7 @@ body {
     flex-direction: column;
     font-family: 'Roboto Slab', serif;
     font-size: 0.75em;
+    padding-right: 5vw;
     display: none;
 }
 
@@ -48,6 +49,12 @@ body {
 .header__nav-icon {
     padding-right: 5vw;
 }
+
+.header__nav-menu:first-of-type {
+    animation: animatedMenu 1.5s forwards;
+}
+
+
 
 
 
@@ -57,6 +64,7 @@ body {
     padding-left: 5vw;
 }
 
+
 .main-container__heading {
     font-size: 2.25em;
     margin: 6vh 0 1.15vh;
@@ -64,9 +72,33 @@ body {
     color: #CE796B;
 }
 
+
 .main-container__description {
-    font-size: 1.25em;
+    font-size: 1.35em;
     padding-right: 40%;
     color: #D2D4C8;
     font-family: 'Comfortaa', cursive;
+}
+
+
+.main-container__button {
+    font-family: 'Roboto Slab', serif;
+    font-weight: 900;
+    font-size: 1.25em;
+    padding: 1.25vh 4.25vw;
+    background-color: #FFD449;
+    border-radius: 10px;
+}
+
+
+
+/* Keyframes */
+
+@keyframes animatedMenu {
+    0% {
+        transform: scale(0);
+    }
+    100% {
+        transform: scale(1);
+    }
 }
