@@ -142,69 +142,6 @@ body {
 }
 
 
-#foto-1 {
-    height: 175px;
-    width: 175px;
-    background-image: url('./public/img/foto-1.jpg');
-}
-
-
-#foto-2 {
-    height: 175px;
-    width: 175px;
-    background-image: url('./public/img/foto-2.jpg');
-}
-
-
-#foto-3 {
-    height: 175px;
-    width: 175px;
-    background-image: url('./public/img/foto-3.jpg');
-}
-
-
-#foto-4 {
-    height: 175px;
-    width: 175px;
-    background-image: url('./public/img/foto-4.jpg');
-}
-
-
-#foto-5 {
-    height: 175px;
-    width: 175px;
-    background-image: url('./public/img/foto-5.jpg');
-}
-
-
-#foto-6 {
-    height: 175px;
-    width: 175px;
-    background-image: url('./public/img/foto-6.jpg');
-}
-
-
-#foto-7 {
-    height: 175px;
-    width: 175px;
-    background-image: url('./public/img/foto-7.jpg');
-}
-
-
-#foto-8 {
-    height: 175px;
-    width: 175px;
-    background-image: url('./public/img/foto-8.jpg');
-}
-
-
-#foto-9 {
-    height: 175px;
-    width: 175px;
-    background-image: url('./public/img/foto-9.jpg');
-}
-
-
 .pricing-container {
     background-color: #E0E0E0;
     min-height: 75vh;
@@ -344,6 +281,71 @@ body {
     margin-block-end: 0;
 }
 
+
+/* Photos for Photo Subpage */
+
+
+#foto-1 {
+    height: 175px;
+    width: 175px;
+    background-image: url('./public/img/foto-1.jpg');
+}
+
+
+#foto-2 {
+    height: 175px;
+    width: 175px;
+    background-image: url('./public/img/foto-2.jpg');
+}
+
+
+#foto-3 {
+    height: 175px;
+    width: 175px;
+    background-image: url('./public/img/foto-3.jpg');
+}
+
+
+#foto-4 {
+    height: 175px;
+    width: 175px;
+    background-image: url('./public/img/foto-4.jpg');
+}
+
+
+#foto-5 {
+    height: 175px;
+    width: 175px;
+    background-image: url('./public/img/foto-5.jpg');
+}
+
+
+#foto-6 {
+    height: 175px;
+    width: 175px;
+    background-image: url('./public/img/foto-6.jpg');
+}
+
+
+#foto-7 {
+    height: 175px;
+    width: 175px;
+    background-image: url('./public/img/foto-7.jpg');
+}
+
+
+#foto-8 {
+    height: 175px;
+    width: 175px;
+    background-image: url('./public/img/foto-8.jpg');
+}
+
+
+#foto-9 {
+    height: 175px;
+    width: 175px;
+    background-image: url('./public/img/foto-9.jpg');
+}
 
 
 /* Keyframes */
@@ -592,6 +594,8 @@ body {
     font-size: 1.25em;
 }
 
+
+/* Photos for Photo Subpage */
 
 #foto-1 {
     height: 400px;
