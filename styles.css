@@ -14,7 +14,6 @@
 ---- Mobile-Friendly CSS ------
 -----------------------------*/
 
-
 /* General Styles */
 
 body {
@@ -36,8 +35,8 @@ body {
     align-items: center;
     height: 13vh;
     width: 100%;
-    background-color: rgba(215,234,228, 0.05);
     margin: 0 0;
+    background-color: rgba(215,234,228, 0.05);
 }
 
 
@@ -48,21 +47,21 @@ body {
     align-items: center;
     height: 13vh;
     width: 100%;
-    background-color: #E0E0E0;
     margin: 0 0;
+    background-color: #E0E0E0;
 }
 
 
 .header__logo {
-    font-size: 1.5em;
     padding-left: 5vw;
     font-family: 'Roboto Slab', serif;
+    font-size: 1.5em;
 }
 
 
 .logo__anchors {
-    text-decoration: none;
     color: #4D4D4D;
+    text-decoration: none;
 }
 
 
@@ -70,15 +69,15 @@ body {
     display: none;
     flex-direction: column;
     align-self: flex-end;
+    padding-right: 5vw;
     font-family: 'Roboto Slab', serif;
     font-size: 0.85em;
-    padding-right: 5vw;
 }
 
 
 .nav-menu__anchors {
-    text-decoration: none;
     color: #4D4D4D;
+    text-decoration: none;
 }
 
 
@@ -97,28 +96,28 @@ body {
 
 
 .main-container__heading {
-    font-size: 2.25em;
     margin: 6vh 0 1.15vh;
-    font-family: 'Roboto Slab', serif;
     color: #CE796B;
+    font-family: 'Roboto Slab', serif;
+    font-size: 2.25em;
 }
 
 
 .main-container__description {
-    font-size: 1.35em;
     padding-right: 40%;
     color: #D2D4C8;
     font-family: 'Comfortaa', cursive;
+    font-size: 1.35em;
 }
 
 
 .main-container__button {
-    font-family: 'Roboto Slab', serif;
-    font-weight: 900;
-    font-size: 1.25em;
     padding: 1.25vh 4.25vw;
-    background-color: #FFD449;
     border-radius: 10px;
+    background-color: #FFD449;
+    font-family: 'Roboto Slab', serif;
+    font-size: 1.25em;
+    font-weight: 900;
 }
 
 
@@ -130,16 +129,16 @@ body {
     flex-direction: row;
     flex-wrap: wrap;
     justify-content: space-evenly;
-    background-color: #E0E0E0;
     padding: 3vh 0;
+    background-color: #E0E0E0;
 }
 
 
 .photography {
+    margin-bottom: 5vh;
+    border-radius: 20px;
     background-repeat: no-repeat;
     background-size: cover;
-    border-radius: 20px;
-    margin-bottom: 5vh;
 }
 
 
