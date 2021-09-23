@@ -46,6 +46,10 @@ body {
 }
 
 
+.nav-menu__anchors {
+    text-decoration: none;
+}
+
 
 .header__nav-icon {
     display: block;

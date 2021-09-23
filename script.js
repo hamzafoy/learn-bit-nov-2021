@@ -2,6 +2,8 @@ let icon = document.querySelector('.header__nav-icon');
 let nav = document.querySelector('.header__nav-menu');
 let closeButton = document.querySelector('.nav-menu__close');
 
+
+
 icon.addEventListener('click', () => {
     if(icon.style.display = "block") {
         icon.style.animation = "revertMenuBack 1.5s ease forwards"
