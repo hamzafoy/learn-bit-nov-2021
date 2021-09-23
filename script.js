@@ -15,6 +15,7 @@ icon.addEventListener('click', () => {
     }
 });
 
+
 closeButton.addEventListener('click', () => {
     if(nav.style.display = "flex") {
         nav.style.animation = "revertMenuBack 1.5s forwards";
