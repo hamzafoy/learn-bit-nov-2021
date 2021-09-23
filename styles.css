@@ -29,10 +29,28 @@ body {
 }
 
 
+.subpage-header {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    height: 13vh;
+    width: 100%;
+    background-color: #E0E0E0;
+    margin: 0 0;
+}
+
+
 .header__logo {
     font-size: 1.5em;
     padding-left: 5vw;
     font-family: 'Roboto Slab', serif;
+}
+
+
+.logo__anchors {
+    text-decoration: none;
+    color: #4D4D4D;
 }
 
 
@@ -48,6 +66,7 @@ body {
 
 .nav-menu__anchors {
     text-decoration: none;
+    color: #4D4D4D;
 }
 
 
@@ -92,6 +111,106 @@ body {
 
 
 
+/* Photography Page Styles */
+
+.photos-container {
+    background-color: #E0E0E0;
+    padding: 5vh 0 0;
+}
+
+
+.photos-container__heading {
+    margin-block-start: 0;
+    margin-block-end: 0;
+    font-family: 'Roboto Slab', serif;
+    font-size: 2.85em;
+    text-align: center;
+    margin-bottom: 2.25vh;
+}
+
+
+.photos-list {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    background-color: #E0E0E0;
+    padding: 3vh 0;
+}
+
+
+.photography {
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 20px;
+    margin-bottom: 5vh;
+}
+
+
+#foto-1 {
+    height: 175px;
+    width: 175px;
+    background-image: url('./public/img/foto-1.jpg');
+}
+
+
+#foto-2 {
+    height: 175px;
+    width: 175px;
+    background-image: url('./public/img/foto-2.jpg');
+}
+
+
+#foto-3 {
+    height: 175px;
+    width: 175px;
+    background-image: url('./public/img/foto-3.jpg');
+}
+
+
+#foto-4 {
+    height: 175px;
+    width: 175px;
+    background-image: url('./public/img/foto-4.jpg');
+}
+
+
+#foto-5 {
+    height: 175px;
+    width: 175px;
+    background-image: url('./public/img/foto-5.jpg');
+}
+
+
+#foto-6 {
+    height: 175px;
+    width: 175px;
+    background-image: url('./public/img/foto-6.jpg');
+}
+
+
+#foto-7 {
+    height: 175px;
+    width: 175px;
+    background-image: url('./public/img/foto-7.jpg');
+}
+
+
+#foto-8 {
+    height: 175px;
+    width: 175px;
+    background-image: url('./public/img/foto-8.jpg');
+}
+
+
+#foto-9 {
+    height: 175px;
+    width: 175px;
+    background-image: url('./public/img/foto-9.jpg');
+}
+
+
+
 /* Keyframes */
 
 @keyframes animatedMenuForward {
@@ -122,7 +241,7 @@ body {
 
 
 /*-----------------------------
----- Mobile-Friendly CSS ------
+---- Desktop-Friendly CSS ------
 -----------------------------*/
 
 @media (min-width: 990px) {
@@ -196,6 +315,106 @@ body {
 .main-container__button {
     padding: 2.75vh 4vw;
     font-size: 2.15em;
+}
+
+
+
+/* Photography Page Styles */
+
+.photos-container {
+    background-color: #E0E0E0;
+    padding: 5vh 0 0;
+}
+
+
+.photos-container__heading {
+    margin-block-start: 0;
+    margin-block-end: 0;
+    font-family: 'Roboto Slab', serif;
+    font-size: 2.85em;
+    text-align: center;
+    margin-bottom: 2.25vh;
+}
+
+
+.photos-list {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    background-color: #E0E0E0;
+    padding: 3vh 0;
+}
+
+
+.photography {
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 20px;
+    margin-bottom: 5vh;
+}
+
+
+#foto-1 {
+    height: 400px;
+    width: 400px;
+    background-image: url('./public/img/foto-1.jpg');
+}
+
+
+#foto-2 {
+    height: 400px;
+    width: 400px;
+    background-image: url('./public/img/foto-2.jpg');
+}
+
+
+#foto-3 {
+    height: 400px;
+    width: 400px;
+    background-image: url('./public/img/foto-3.jpg');
+}
+
+
+#foto-4 {
+    height: 400px;
+    width: 400px;
+    background-image: url('./public/img/foto-4.jpg');
+}
+
+
+#foto-5 {
+    height: 400px;
+    width: 400px;
+    background-image: url('./public/img/foto-5.jpg');
+}
+
+
+#foto-6 {
+    height: 400px;
+    width: 400px;
+    background-image: url('./public/img/foto-6.jpg');
+}
+
+
+#foto-7 {
+    height: 400px;
+    width: 400px;
+    background-image: url('./public/img/foto-7.jpg');
+}
+
+
+#foto-8 {
+    height: 400px;
+    width: 400px;
+    background-image: url('./public/img/foto-8.jpg');
+}
+
+
+#foto-9 {
+    height: 400px;
+    width: 400px;
+    background-image: url('./public/img/foto-9.jpg');
 }
 
 
