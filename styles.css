@@ -197,6 +197,7 @@ body {
 
 .reviews-container {
     min-height: 75vh;
+    padding-bottom: 4vh;
     background-color: #E0E0E0;
 }
 
@@ -256,8 +257,7 @@ body {
 /* Shared Subpage Styles */
 
 .photos-container,
-.pricing-container,
-.reviews-container {
+.pricing-container {
     padding: 5vh 0 0;
     background-color: #E0E0E0;
 }
