@@ -113,22 +113,6 @@ body {
 
 /* Photography Page Styles */
 
-.photos-container {
-    background-color: #E0E0E0;
-    padding: 5vh 0 0;
-}
-
-
-.photos-container__heading {
-    margin-block-start: 0;
-    margin-block-end: 0;
-    font-family: 'Roboto Slab', serif;
-    font-size: 2.85em;
-    text-align: center;
-    margin-bottom: 2.25vh;
-}
-
-
 .photos-list {
     display: flex;
     flex-direction: row;
@@ -207,6 +191,85 @@ body {
     height: 175px;
     width: 175px;
     background-image: url('./public/img/foto-9.jpg');
+}
+
+
+.pricing-container {
+    background-color: #E0E0E0;
+    min-height: 75vh;
+}
+
+
+.pricing-list {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    background-color: #E0E0E0;
+    padding: 5vh 0;
+}
+
+
+.pricing-list__item {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background: rgb(217,204,230);
+    background: linear-gradient(12deg, rgba(217,204,230,1) 0%, rgba(202,160,245,1) 100%);
+    height: 330px;
+    width: 240px;
+    margin: 2.5vh 2vw;
+    border-radius: 12.5px;
+}
+
+
+.photo-count {
+    font-family: 'Comfortaa', cursive;
+    margin-bottom: 1.25vh;
+}
+
+.photo-price {
+    font-family: 'Comfortaa', cursive;
+    font-size: 2.5em;
+    position: relative;
+}
+
+
+.photo-price::after {
+    content: "per photo";
+    font-size: 0.3em;
+    min-width: 200px;
+    position: absolute;
+    top: 40px;
+    left: 40%;
+}
+
+
+/* Shared Subpage Styles */
+
+.photos-container,
+.pricing-container {
+    background-color: #E0E0E0;
+    padding: 5vh 0 0;
+}
+
+
+.photos-container__heading,
+.pricing-container__heading {
+    margin-block-start: 0;
+    margin-block-end: 0;
+    font-family: 'Roboto Slab', serif;
+    font-size: 2.85em;
+    text-align: center;
+    margin-bottom: 2.25vh;
+}
+
+
+.photo-count,
+.photo-price {
+    margin-block-start: 0;
+    margin-block-end: 0;
 }
 
 
@@ -266,6 +329,11 @@ body {
 }
 
 
+.subpage-header {
+    height: 20vh;
+}
+
+
 .header__logo {
     font-size: 2.25em;
 }
@@ -319,23 +387,7 @@ body {
 
 
 
-/* Photography Page Styles */
-
-.photos-container {
-    background-color: #E0E0E0;
-    padding: 5vh 0 0;
-}
-
-
-.photos-container__heading {
-    margin-block-start: 0;
-    margin-block-end: 0;
-    font-family: 'Roboto Slab', serif;
-    font-size: 2.85em;
-    text-align: center;
-    margin-bottom: 2.25vh;
-}
-
+/*  Subpage Styles */
 
 .photos-list {
     display: flex;
@@ -352,6 +404,58 @@ body {
     background-size: cover;
     border-radius: 20px;
     margin-bottom: 5vh;
+}
+
+
+.pricing-container {
+    background-color: #E0E0E0;
+    min-height: 75vh;
+}
+
+
+.pricing-list {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    background-color: #E0E0E0;
+    padding: 5vh 0;
+}
+
+
+.pricing-list__item {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background: rgb(217,204,230);
+    background: linear-gradient(12deg, rgba(217,204,230,1) 0%, rgba(202,160,245,1) 100%);
+    height: 330px;
+    width: 240px;
+    margin: 0 2vw;
+    border-radius: 12.5px;
+}
+
+
+.photo-count {
+    font-family: 'Comfortaa', cursive;
+    margin-bottom: 1.25vh;
+}
+
+.photo-price {
+    font-family: 'Comfortaa', cursive;
+    font-size: 2.5em;
+    position: relative;
+}
+
+
+.photo-price::after {
+    content: "per photo";
+    font-size: 0.425em;
+    min-width: 200px;
+    position: absolute;
+    top: 35px;
+    left: 20%;
 }
 
 
@@ -415,6 +519,25 @@ body {
     height: 400px;
     width: 400px;
     background-image: url('./public/img/foto-9.jpg');
+}
+
+
+/* Shared Subpage Styles */
+
+.photos-container {
+    background-color: #E0E0E0;
+    padding: 5vh 0 0;
+}
+
+
+.photos-container__heading,
+.pricing-container__heading {
+    margin-block-start: 0;
+    margin-block-end: 0;
+    font-family: 'Roboto Slab', serif;
+    font-size: 2.85em;
+    text-align: center;
+    margin-bottom: 2.25vh;
 }
 
 
