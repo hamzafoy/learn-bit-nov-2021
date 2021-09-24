@@ -550,6 +550,18 @@ body {
 }
 
 
+.photo-order {
+    margin: 3vh 0 0;
+    padding: 1vh 2vw;
+    border: none;
+    border-radius: 5px;
+    background-color: #a5cb7d;
+    font-family: 'Comfortaa', cursive;
+    font-size: 1.15em;
+    font-weight: 600;
+}
+
+
 .reviews-container {
     min-height: 75vh;
     background-color: #E0E0E0;
