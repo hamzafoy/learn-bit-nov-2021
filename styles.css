@@ -171,6 +171,19 @@ body {
 }
 
 
+.pricing-list__item:hover {
+    border: #a5cb7d 3.5px solid;
+    background-color: #cbe1b4;
+    transform: scale(1.15);
+}
+
+
+.pricing-list__item:hover span[class*="colored-dollar-sign"] {
+    color: #a5cb7d;
+    transition: color 1.15s ease;
+}
+
+
 .photo-count {
     margin-bottom: 1.25vh;
     font-family: 'Comfortaa', cursive;
@@ -191,6 +204,25 @@ body {
     left: 40%;
     min-width: 200px;
     font-size: 0.3em;
+}
+
+
+.photo-order {
+    opacity: 0;
+    margin: 3vh 0 0;
+    padding: 1vh 2vw;
+    border: none;
+    border-radius: 5px;
+    background-color: #a5cb7d;
+    font-family: 'Comfortaa', cursive;
+    font-size: 1.15em;
+    font-weight: 600;
+}
+
+
+.pricing-list__item:hover .photo-order {
+    opacity: 1;
+    transition: opacity 1.15s ease;
 }
 
 
