@@ -167,8 +167,7 @@ body {
     width: 240px;
     margin: 2.5vh 2vw;
     border-radius: 12.5px;
-    background: rgb(217,204,230);
-    background: linear-gradient(12deg, rgba(217,204,230,1) 0%, rgba(202,160,245,1) 100%);
+    background-color: #e4d8ef;
 }
 
 
@@ -511,8 +510,14 @@ body {
     width: 240px;
     margin: 0 2vw;
     border-radius: 12.5px;
-    background: rgb(217,204,230);
-    background: linear-gradient(12deg, rgba(217,204,230,1) 0%, rgba(202,160,245,1) 100%);
+    background-color: #d7c6e8;
+    transition: transform 1.25s ease, background-color 1.25s ease;
+}
+
+
+.pricing-list__item:hover {
+    background-color: #cbe1b4;
+    transform: scale(1.25);
 }
 
 
