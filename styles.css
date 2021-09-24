@@ -511,13 +511,20 @@ body {
     margin: 0 2vw;
     border-radius: 12.5px;
     background-color: #d7c6e8;
-    transition: transform 1.25s ease, background-color 1.25s ease;
+    transition: transform 1.05s ease, background-color 1.05s ease, border 1.05s ease;
 }
 
 
 .pricing-list__item:hover {
+    border: #a5cb7d 3.5px solid;
     background-color: #cbe1b4;
-    transform: scale(1.25);
+    transform: scale(1.15);
+}
+
+
+.pricing-list__item:hover span[class*="colored-dollar-sign"] {
+    color: #a5cb7d;
+    transition: color 1.15s ease;
 }
 
 
