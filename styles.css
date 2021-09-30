@@ -302,6 +302,31 @@ body {
 }
 
 
+.contact-info {
+    margin: 7.5vh 11vw 7.5vh;
+    background-color: #d7c6e8;
+}
+
+
+.contact-info__name {
+    margin-block-start: 0;
+    margin-block-end: 0;
+    margin-bottom: 2.25vh;
+    font-family: 'Roboto Slab', serif;
+    font-size: 1.55em;
+    text-align: center;
+}
+
+
+.contact-info__text {
+    margin-block-start: 0;
+    margin-block-end: 0;
+    padding: 2vh 5vw 5vh;
+    font-family: 'Comfortaa', cursive;
+    font-size: 0.8em;
+}
+
+
 /* Shared Subpage Styles */
 
 .photos-container,
