@@ -305,7 +305,7 @@ body {
 .contact-info {
     position: relative;
     min-height: 30vh;
-    margin: 7.5vh 8vw 7.5vh;
+    margin: 7.5vh 8vw 2.75vh;
     background-color: #d7c6e8;
 }
 
@@ -349,6 +349,28 @@ body {
     padding: 2vh 10vw 5vh;
     font-family: 'Comfortaa', cursive;
     font-size: 1em;
+}
+
+
+.contact-form {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+
+
+.contact-form__line,
+.contact-form__textarea {
+    margin: 0.75vh 11vw;
+    padding: 0.5vh 0;
+    border: solid 1px rgb(255,211,106);
+}
+
+
+.contact-form__line::placeholder,
+.contact-form__textarea::placeholder {
+    padding-left: 1.75vw;
+    font-family: 'Comfortaa', cursive;
 }
 
 
